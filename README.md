@@ -37,3 +37,6 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+My Response
+Since the best case scenario has a comlexity of $\Theta(n)$ because it's when the list is already completely sorted I believe that the average case should reflect the worst case as an assumption.  Since the worst case is $\Theta(n^2)$ I believe that we should also consider the average to also be $\Theta(n^2)$, because while it might not take as long for some lists as others you are always going to go through both loops and move values around since they are all going to be unsorted to some extent (in the cases where we are not dealing with an already sorted list).
